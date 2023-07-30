@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(136, 136, 247);
+            color: white; /* comentário em css     */
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!-- Comentário em HTML-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+         var n1 = Number(window.prompt ('Digite um número: ')) //prompt por padrão recebe string
+         var n2 = Number(window.prompt ('Digite outro número: ')) // string 
+         var s = n1 + n2
+         window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //concatenação +
+         // + para adição (number + number) 
+         // + para concatenação (string + string)
+        // tem o parseFloat para numeros reais, e temo o só Number(n) que o Js se vira, porém quando precisa especificamente usar um tipo tem que forçá-lo
+        // se eu quiser converter numero para string eu uso o string(n)
+        //n.toString()
+
+
+    </script>
+</body>
+</html>
